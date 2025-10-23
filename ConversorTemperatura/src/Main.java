@@ -26,7 +26,7 @@ import java.util.Scanner;
                 resultado = celsiusAFahrenheit(temperatura);
                 System.out.printf("%.2f C es igual a %.2f F%n", temperatura, resultado);
             } else {
-                System.out.println("Entrada no válida.");
+                System.out.println("Entrada no válida mi lider.");
             }
         } else if (opcion.equals("2")) {
             System.out.print("Introduce la temperatura en Fahrenheit: ");
@@ -35,10 +35,10 @@ import java.util.Scanner;
                 resultado = fahrenheitACelsius(temperatura);
                 System.out.printf("%.2f F es igual a %.2f C%n", temperatura, resultado);
             } else {
-                System.out.println("Entrada no válida.");
+                System.out.println("Entrada no válida mi lider.");
             }
         } else {
-            System.out.println("Opción no válida. Introduce '1' o '2'.");
+            System.out.println("Opción no válida. Na' ma' es el '1' o '2'.");
         }
         teclado.close();
     }
