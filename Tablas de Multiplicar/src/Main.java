@@ -10,7 +10,7 @@ public class Main {
 
 
         System.out.println("Generador de Tablas de Multiplicar");
-        System.out.print("Ponga un número entero para generar su tabla lider (del 1 al 10): ");
+        System.out.print("Ponga un número entero para generar su tabla lider: ");
 
 
         if (scanner.hasNextInt()) {
